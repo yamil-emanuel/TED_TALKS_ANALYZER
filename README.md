@@ -1,5 +1,6 @@
 # **TED_TALKS_ANALYZER**
 Scripting in order to analyze some ted talks using their transcriptions and some video's metadata.
+Full dataset and some extra analysis could be found here: https://www.kaggle.com/yamildaboul/improving-online-presence-using-tedxtalks
 
 
 ##Before running: 
