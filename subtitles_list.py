@@ -8,8 +8,9 @@ Running the following code in the terminal: youtube-dl --sub-lang es --write-aut
 
 
 PUTTING THEM INTO THE SCRIPT:
-1)Using -ls command in terminal, copying all files-name
-2)Pasting them into a variable called names
+1)Opening the Terminal and going to the subtitle's path
+2)Using -ls command in terminal, copying all files-name
+3)Pasting them into a variable called names
 
     names=''''Why people believe they can’t draw - and how to prove they can _ Graham Shaw _ TEDxHull-7TXEZ4tP06c.en.vtt'
     'Why we need to talk about suicide _ Mark Henick _ TEDxToronto-D1QoyTmeAYw.en.vtt'
@@ -29,7 +30,9 @@ PUTTING THEM INTO THE SCRIPT:
 4)Output will be:
     ['Why people believe they can’t draw - and how to prove they can _ Graham Shaw _ TEDxHull-7TXEZ4tP06c.en.vtt', 'Why we need to talk about suicide _ Mark Henick _ TEDxToronto-D1QoyTmeAYw.en.vtt']
 
-5) Replace every ("') and ('") for ".
+5) Copying the Output into subtitles_list
+
+6) Replace every ("') and ('") for ".
 
 6)Subtitle's list is ready for being pasted into the subtitles_list tuple.
 
